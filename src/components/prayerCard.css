@@ -1,0 +1,111 @@
+
+
+html{
+    color: aliceblue;
+}
+
+
+
+
+
+
+
+.formbox {
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.116);
+    width: 750px;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+label{
+    display: block;
+    margin: 8px;
+    color: aliceblue;
+}
+input , select{
+    width: 90%;
+}
+form{
+    width: 100%;
+}
+hr{
+    width: 90%;
+}
+
+.backgroundmsg{
+    background-color: rgba(0, 0, 0, 0.747);
+    position: absolute;
+    width: 700px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.errormsg{
+    background-color: rgba(214, 214, 214, 0.884);
+width: 90%;
+border-radius: 10px;
+}
+
+
+
+.gridcontainer{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    margin: 20px;
+    grid-auto-rows: minmax(100px, auto);
+    /* background-color: black; */
+    align-items: center;
+    
+}
+
+
+
+
+.boxss{
+    display: flex;
+    width: 200px;
+    height: 110px;
+    align-content: center;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    /* box-shadow: 20px 20px 20px white; */
+
+}
+
+
+
+#demo-simple-select{
+    color: rgb(255, 255, 255);
+    background-color: rgba(183, 179, 245, 0.473);
+    border:solid 0.8px  blue;
+}
+
+
+#demo-simple-select-label{
+
+   color: rgb(255, 255, 255);
+}
+.select-box{
+    color:   rgb(255, 255, 255);
+}
+
+
+#selectedcity{
+    margin-bottom: 10px;
+    background-color: black;
+    width: 900px;
+}
+
+
+.Divider{
+    width: 20px;
+    border: solid 20px black;
+}
