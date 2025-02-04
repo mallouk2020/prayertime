@@ -138,7 +138,7 @@ export default function Pryercard() {
     const fetchPrayerTimes = async () => {
       try {
         const response = await axios.get(
-          `http://api.aladhan.com/v1/timingsByAddress/26-01-2025?address=${city.apiCity}`
+          `https://api.aladhan.com/v1/timingsByAddress/26-01-2025?address=${city.apiCity}`
         );
         setPrayerTimes(response.data.data.timings);
       } catch (error) {
