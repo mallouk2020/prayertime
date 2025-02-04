@@ -1,7 +1,7 @@
 
 import './App.css';
 // import Form from './form';
-import Prayercard from './components/pryercard';
+import PrayerApp from './components/prayerApp';
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
 
 
 
-<Prayercard/>
+<PrayerApp/>
 
 
 
